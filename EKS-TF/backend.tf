@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "my-ews-baket1a"
+    bucket         = "shankar"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
   }
